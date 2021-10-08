@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;800&family=Open+Sans:wght@400;700&display=swap');
+
+
+
+@mixin titulo{
+  margin: 20px 0;
+  font-family: 'Mulish', sans-serif;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 66px;
+  color: $azul;
+}
+
+
+
+@mixin paragrafo{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 27px;
+  color: #4F5E66;
+}
+

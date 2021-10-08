@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;800&family=Open+Sans:wght@400;700&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #F3F9F9;
+}
+
+.sub-menu {
+  margin: 30px 0;
+}
+
+.menu {
+  background-color: #D8B630;
+}
+
+.menu .navbar {
+  background: none !important;
+}
+
+.menu .navbar .nav-link {
+  color: #fafafa;
+}
+
+.menu .navbar .active {
+  background-color: #FFC400;
+  color: #fafafa;
+}
+
+.topo h1 {
+  margin: 20px 0;
+  font-family: 'Mulish', sans-serif;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 66px;
+  color: #278B97;
+}
+
+.topo p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 27px;
+  color: #4F5E66;
+}
+
+.topo p::-moz-selection {
+  background-color: hotpink;
+  color: #fff;
+}
+
+.topo p::selection {
+  background-color: hotpink;
+  color: #fff;
+}
+
+.topo p a {
+  color: #4F5E66;
+  font-weight: bold;
+}
+
+.busca h2 {
+  margin: 20px 0;
+  font-family: 'Mulish', sans-serif;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 66px;
+  color: #278B97;
+  font-size: 36px;
+  line-height: 46px;
+  margin: 40px 0;
+  color: #34434b;
+}
+
+.busca .form-control {
+  width: 480px;
+  height: calc(3rem + 1rem + 4px);
+  border: none;
+  margin-bottom: 40px;
+  -webkit-box-shadow: 0px 12px 24px rgba(48, 42, 42, 0.05), 0px 3.61765px 7.2353px rgba(48, 42, 42, 0.0325794), 0px 1.50259px 3.00517px rgba(48, 42, 42, 0.025), 0px 0.54346px 1.08691px rgba(48, 42, 42, 0.0174206);
+          box-shadow: 0px 12px 24px rgba(48, 42, 42, 0.05), 0px 3.61765px 7.2353px rgba(48, 42, 42, 0.0325794), 0px 1.50259px 3.00517px rgba(48, 42, 42, 0.025), 0px 0.54346px 1.08691px rgba(48, 42, 42, 0.0174206);
+}
+
+.perguntas h3 {
+  margin: 20px 0;
+  font-family: 'Mulish', sans-serif;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 66px;
+  color: #278B97;
+  font-size: 22px;
+  line-height: 28px;
+}
+
+.perguntas p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 27px;
+  color: #4F5E66;
+}
+
+.perguntas .card {
+  background-color: none;
+  border: none;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.perguntas .card .card-header {
+  border: none;
+  background: none;
+  border-bottom: 1px solid #f1f1f1;
+  cursor: pointer;
+}
+
+.perguntas .card strong {
+  font-weight: 700;
+}
+
+.perguntas .card img {
+  border-radius: 10px;
+}
+/*# sourceMappingURL=style.css.map */

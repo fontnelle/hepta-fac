@@ -1,0 +1,18 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    // font-family: 'Roboto', sans-serif;
+    // border: 1px dashed hotpink;
+}
+
+body{
+    background-color:#F3F9F9;
+}
+
+
+@import 'partials/cores';
+@import 'partials/tipografia';
+@import 'partials/layout';
