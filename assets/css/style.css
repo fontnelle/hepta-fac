@@ -18,19 +18,29 @@ body {
 
 .menu {
   background-color: #D8B630;
+  padding: 10px;
 }
 
-.menu .navbar {
-  background: none !important;
+.menu .navbar .navbar-nav .nav-item {
+  border-left: 1px solid #FFC400;
+  padding: 0 20px;
 }
 
-.menu .navbar .nav-link {
-  color: #fafafa;
-}
-
-.menu .navbar .active {
+.menu .navbar .navbar-nav .nav-item:hover {
   background-color: #FFC400;
+  -webkit-transform: translateY(3px);
+          transform: translateY(3px);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  border-left: none;
+}
+
+.menu .navbar .navbar-nav .nav-item a {
   color: #fafafa;
+  font-weight: bold;
+  line-height: 20px;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
 }
 
 .topo h1 {
@@ -61,7 +71,7 @@ body {
 }
 
 .topo p a {
-  color: #4F5E66;
+  color: #4f5e66;
   font-weight: bold;
 }
 

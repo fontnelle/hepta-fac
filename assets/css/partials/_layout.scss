@@ -1,86 +1,95 @@
-.sub-menu{
+.sub-menu {
   margin: 30px 0;
 }
 
-.menu{
+.menu {
   background-color: $laranja-escuro;
+  padding: 10px;
   .navbar{
-    background: none !important;
-    .nav-link{
-      color: #fafafa;
-
-    }
-    .active{
-      background-color: $laranja;
-      color: #fafafa;
+    .navbar-nav {
+      .nav-item{
+        border-left: 1px solid $laranja;
+        padding: 0 20px;
+      
+        &:hover{
+          background-color: $laranja;
+          transform:translateY(3px);
+          transition: .3s ease;
+          border-left: none;
+        }
+        a{
+          color: #fafafa;
+          font-weight: bold;
+          line-height: 20px;
+          transition: .3s ease;
+          
+        }
+      }
+      
     }
   }
 }
 
-.topo{
-  h1{
+.topo {
+  h1 {
     @include titulo;
   }
-  p{
+  p {
     @include paragrafo;
-    &::selection{
+    &::selection {
       background-color: hotpink;
       color: #fff;
     }
-    a{
-      color: #4F5E66;
+    a {
+      color: #4f5e66;
       font-weight: bold;
     }
   }
 }
 
-.busca{
-  h2{
+.busca {
+  h2 {
     @include titulo;
     font-size: 36px;
     line-height: 46px;
     margin: 40px 0;
     color: #34434b;
   }
-  .form-control{
+  .form-control {
     width: 480px;
     height: calc(3rem + 1rem + 4px);
     border: none;
     margin-bottom: 40px;
-    box-shadow: 0px 12px 24px rgba(48, 42, 42, 0.05), 0px 3.61765px 7.2353px rgba(48, 42, 42, 0.0325794), 0px 1.50259px 3.00517px rgba(48, 42, 42, 0.025), 0px 0.543456px 1.08691px rgba(48, 42, 42, 0.0174206);
+    box-shadow: 0px 12px 24px rgba(48, 42, 42, 0.05), 0px 3.61765px 7.2353px rgba(48, 42, 42, 0.0325794),
+      0px 1.50259px 3.00517px rgba(48, 42, 42, 0.025), 0px 0.543456px 1.08691px rgba(48, 42, 42, 0.0174206);
   }
-
 }
 
-.perguntas{
-
-  h3{
+.perguntas {
+  h3 {
     @include titulo;
     font-size: 22px;
     line-height: 28px;
-    
   }
-  p{
+  p {
     @include paragrafo;
-
   }
 
-  .card{
+  .card {
     background-color: none;
     border: none;
     padding: 0;
     margin-bottom: 10px;
-    .card-header{
+    .card-header {
       border: none;
       background: none;
       border-bottom: 1px solid rgb(241, 241, 241);
       cursor: pointer;
     }
-    strong{
+    strong {
       font-weight: 700;
     }
-    img{
-     
+    img {
       border-radius: 10px;
     }
   }
