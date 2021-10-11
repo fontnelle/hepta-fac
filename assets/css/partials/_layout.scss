@@ -5,27 +5,52 @@
 .menu {
   background-color: $laranja-escuro;
   padding: 10px;
-  .navbar{
+  .navbar {
     .navbar-nav {
-      .nav-item{
+      transition: 0.3s ease;
+      .nav-item {
         border-left: 1px solid $laranja;
         padding: 0 20px;
-      
-        &:hover{
+
+        &:hover {
           background-color: $laranja;
-          transform:translateY(3px);
-          transition: .3s ease;
+          transform: translateY(3px);
+          transition: 0.3s ease;
           border-left: none;
         }
-        a{
+        a {
           color: #fafafa;
           font-weight: bold;
           line-height: 20px;
-          transition: .3s ease;
-          
+          transition: 0.3s ease;
         }
       }
-      
+    }
+  }
+}
+.menu-2 {
+  background-color: $azul;
+  padding: 10px;
+  .navbar {
+    .navbar-nav {
+      transition: 0.3s ease;
+      .nav-item {
+        border-left: 1px solid $azul-claro;
+        padding: 0 20px;
+
+        &:hover {
+          background-color: $azul-escuro;
+          transform: translateY(3px);
+          transition: 0.3s ease;
+          border-left: none;
+        }
+        a {
+          color: #fafafa;
+          font-weight: bold;
+          line-height: 20px;
+          transition: 0.3s ease;
+        }
+      }
     }
   }
 }
@@ -37,7 +62,23 @@
   p {
     @include paragrafo;
     &::selection {
-      background-color: hotpink;
+      background-color: $azul;
+      color: #fff;
+    }
+    a {
+      color: #4f5e66;
+      font-weight: bold;
+    }
+  }
+}
+.topo-2 {
+  h1 {
+    @include titulo-2;
+  }
+  p {
+    @include paragrafo;
+    &::selection {
+      background-color: $azul;
       color: #fff;
     }
     a {
@@ -61,7 +102,11 @@
     border: none;
     margin-bottom: 40px;
     box-shadow: 0px 12px 24px rgba(48, 42, 42, 0.05), 0px 3.61765px 7.2353px rgba(48, 42, 42, 0.0325794),
-      0px 1.50259px 3.00517px rgba(48, 42, 42, 0.025), 0px 0.543456px 1.08691px rgba(48, 42, 42, 0.0174206);
+    0px 1.50259px 3.00517px rgba(48, 42, 42, 0.025), 0px 0.543456px 1.08691px rgba(48, 42, 42, 0.0174206);
+    &::placeholder{
+      @include paragrafo;
+      color: #ccc;
+    }
   }
 }
 
@@ -93,4 +138,104 @@
       border-radius: 10px;
     }
   }
+}
+.perguntas-2 {
+  h3 {
+    @include titulo-2;
+    font-size: 22px;
+    line-height: 28px;
+  }
+  p {
+    @include paragrafo;
+  }
+
+  .card {
+    background-color: none;
+    border: none;
+    padding: 0;
+    margin-bottom: 10px;
+    .card-header {
+      border: none;
+      background: none;
+      border-bottom: 1px solid rgb(241, 241, 241);
+      cursor: pointer;
+    }
+    strong {
+      font-weight: 700;
+    }
+    img {
+      border-radius: 10px;
+    }
+  }
+}
+
+#footer {
+  margin-bottom: 60px;
+  background: $laranja-escuro;
+  padding: 15px 20px;
+  border-radius: 40px;
+  p {
+    color: #fff;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    a {
+      color: #fff;
+      font-weight: bold;
+
+      &:hover {
+        color: $laranja;
+        transition: 0.3s ease;
+        transform: translate3d(0, -3px, 0);
+      }
+    }
+  }
+}
+#footer-2 {
+  margin-bottom: 60px;
+  background: $azul;
+  padding: 15px 20px;
+  border-radius: 40px;
+  p {
+    color: #fff;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    a {
+      color: #fff;
+      font-weight: bold;
+
+      &:hover {
+        color: $azul;
+        transition: 0.3s ease;
+        transform: translate3d(0, -3px, 0);
+      }
+    }
+  }
+}
+@media screen and (max-width: 992px) {
+  #footer {
+    text-align: center;
+    padding: 10px 10px;
+    border-radius: 6px;
+    width: 90%;
+    p {
+      text-align: center;
+      font-size: 14px;
+
+      padding-top: 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+.busca{
+  .geral-pesquisa_input{
+    .form-control{
+
+      width: 98%;
+  
+    }
+  }
+}
 }

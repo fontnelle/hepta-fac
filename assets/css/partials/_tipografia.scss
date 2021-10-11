@@ -8,6 +8,14 @@
   font-weight: bold;
   font-size: 56px;
   line-height: 66px;
+  color: $laranja-escuro;
+}
+@mixin titulo-2{
+  margin: 20px 0;
+  font-family: 'Mulish', sans-serif;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 66px;
   color: $azul;
 }
 

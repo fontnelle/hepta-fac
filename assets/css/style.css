@@ -21,6 +21,11 @@ body {
   padding: 10px;
 }
 
+.menu .navbar .navbar-nav {
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
 .menu .navbar .navbar-nav .nav-item {
   border-left: 1px solid #FFC400;
   padding: 0 20px;
@@ -30,8 +35,8 @@ body {
   background-color: #FFC400;
   -webkit-transform: translateY(3px);
           transform: translateY(3px);
-  -webkit-transition: .3s ease;
-  transition: .3s ease;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
   border-left: none;
 }
 
@@ -39,8 +44,40 @@ body {
   color: #fafafa;
   font-weight: bold;
   line-height: 20px;
-  -webkit-transition: .3s ease;
-  transition: .3s ease;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.menu-2 {
+  background-color: #278B97;
+  padding: 10px;
+}
+
+.menu-2 .navbar .navbar-nav {
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.menu-2 .navbar .navbar-nav .nav-item {
+  border-left: 1px solid #79B6BD;
+  padding: 0 20px;
+}
+
+.menu-2 .navbar .navbar-nav .nav-item:hover {
+  background-color: #1d7781;
+  -webkit-transform: translateY(3px);
+          transform: translateY(3px);
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  border-left: none;
+}
+
+.menu-2 .navbar .navbar-nav .nav-item a {
+  color: #fafafa;
+  font-weight: bold;
+  line-height: 20px;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 .topo h1 {
@@ -49,7 +86,7 @@ body {
   font-weight: bold;
   font-size: 56px;
   line-height: 66px;
-  color: #278B97;
+  color: #D8B630;
 }
 
 .topo p {
@@ -61,16 +98,48 @@ body {
 }
 
 .topo p::-moz-selection {
-  background-color: hotpink;
+  background-color: #278B97;
   color: #fff;
 }
 
 .topo p::selection {
-  background-color: hotpink;
+  background-color: #278B97;
   color: #fff;
 }
 
 .topo p a {
+  color: #4f5e66;
+  font-weight: bold;
+}
+
+.topo-2 h1 {
+  margin: 20px 0;
+  font-family: 'Mulish', sans-serif;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 66px;
+  color: #278B97;
+}
+
+.topo-2 p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 27px;
+  color: #4F5E66;
+}
+
+.topo-2 p::-moz-selection {
+  background-color: #278B97;
+  color: #fff;
+}
+
+.topo-2 p::selection {
+  background-color: #278B97;
+  color: #fff;
+}
+
+.topo-2 p a {
   color: #4f5e66;
   font-weight: bold;
 }
@@ -81,7 +150,7 @@ body {
   font-weight: bold;
   font-size: 56px;
   line-height: 66px;
-  color: #278B97;
+  color: #D8B630;
   font-size: 36px;
   line-height: 46px;
   margin: 40px 0;
@@ -97,13 +166,49 @@ body {
           box-shadow: 0px 12px 24px rgba(48, 42, 42, 0.05), 0px 3.61765px 7.2353px rgba(48, 42, 42, 0.0325794), 0px 1.50259px 3.00517px rgba(48, 42, 42, 0.025), 0px 0.54346px 1.08691px rgba(48, 42, 42, 0.0174206);
 }
 
+.busca .form-control::-webkit-input-placeholder {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 27px;
+  color: #4F5E66;
+  color: #ccc;
+}
+
+.busca .form-control:-ms-input-placeholder {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 27px;
+  color: #4F5E66;
+  color: #ccc;
+}
+
+.busca .form-control::-ms-input-placeholder {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 27px;
+  color: #4F5E66;
+  color: #ccc;
+}
+
+.busca .form-control::placeholder {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 27px;
+  color: #4F5E66;
+  color: #ccc;
+}
+
 .perguntas h3 {
   margin: 20px 0;
   font-family: 'Mulish', sans-serif;
   font-weight: bold;
   font-size: 56px;
   line-height: 66px;
-  color: #278B97;
+  color: #D8B630;
   font-size: 22px;
   line-height: 28px;
 }
@@ -136,5 +241,120 @@ body {
 
 .perguntas .card img {
   border-radius: 10px;
+}
+
+.perguntas-2 h3 {
+  margin: 20px 0;
+  font-family: 'Mulish', sans-serif;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 66px;
+  color: #278B97;
+  font-size: 22px;
+  line-height: 28px;
+}
+
+.perguntas-2 p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 27px;
+  color: #4F5E66;
+}
+
+.perguntas-2 .card {
+  background-color: none;
+  border: none;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.perguntas-2 .card .card-header {
+  border: none;
+  background: none;
+  border-bottom: 1px solid #f1f1f1;
+  cursor: pointer;
+}
+
+.perguntas-2 .card strong {
+  font-weight: 700;
+}
+
+.perguntas-2 .card img {
+  border-radius: 10px;
+}
+
+#footer {
+  margin-bottom: 60px;
+  background: #D8B630;
+  padding: 15px 20px;
+  border-radius: 40px;
+}
+
+#footer p {
+  color: #fff;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+
+#footer p a {
+  color: #fff;
+  font-weight: bold;
+}
+
+#footer p a:hover {
+  color: #FFC400;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  -webkit-transform: translate3d(0, -3px, 0);
+          transform: translate3d(0, -3px, 0);
+}
+
+#footer-2 {
+  margin-bottom: 60px;
+  background: #278B97;
+  padding: 15px 20px;
+  border-radius: 40px;
+}
+
+#footer-2 p {
+  color: #fff;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+
+#footer-2 p a {
+  color: #fff;
+  font-weight: bold;
+}
+
+#footer-2 p a:hover {
+  color: #278B97;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  -webkit-transform: translate3d(0, -3px, 0);
+          transform: translate3d(0, -3px, 0);
+}
+
+@media screen and (max-width: 992px) {
+  #footer {
+    text-align: center;
+    padding: 10px 10px;
+    border-radius: 6px;
+    width: 90%;
+  }
+  #footer p {
+    text-align: center;
+    font-size: 14px;
+    padding-top: 10px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .busca .geral-pesquisa_input .form-control {
+    width: 98%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
