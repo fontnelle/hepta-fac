@@ -119,6 +119,9 @@
   p {
     @include paragrafo;
   }
+  a{
+    color: $laranja-escuro;
+  }
 
   .card {
     background-color: none;

@@ -2,80 +2,102 @@
 var x;
 var i = 1;
 var perguntas = {
-	
-	
+
+
 	// perguntas sobre o título de eleitor
 
 	pergunta_titulo_1: {
 		sigla: 'pergunta_titulo_1',
 		titulo: 'Documentação Necessária para Efetivação',
-		resposta: '<p>Para efetivação do registro, você deverá preencher essa Ficha de Cadastro e anexar cópias digitais dos documentos abaixo relacionados, além de entregar o original do <a href="#Atestado">Atestado Admissional</a> (e laudo PCD, se for o caso) na sede da Hepta*.</p>'+
-		'<li>Documento oficial de identidade (Carteira de identidade ou CNH)</li>'+
-		'<li>CPF</li>'+
-		'<li>Certidão de casamento ou união estável (se for o caso)</li>'+
-		'<li>Cartão PIS ou NIT (se tiver)</li>'+
-		'<li>Certificado de reservista ou Dispensa do Serviço Militar (se for o caso)</li>'+
-		'<li>Título de Eleitor (ou certidão de quitação eleitoral emitida no site do TSE)</li>'+
-		'<li>Comprovante de residência</li>'+
-		'<li>Certidão de nascimento dos filhos (se for o caso)</li>'+
-		'<li>Carteira de vacinação dos filhos menores de 7 anos (se for o caso)</li>'+
-		'<li>Declaração semestral de frequência na escola dos filhos, a partir dos 7 anos (se for o caso)</li>'+
-		'<li>Em caso PCD, laudo com enquadramento (anexar cópia digital na área de documentos desse formulário e entregar original na empresa)</li>'+
-		'<li><a href="#AtestadoMedico">Atestado admissional</a> (anexar cópia digital na área de documentos desse formulário e entregar/enviar original)</li>'+
-		'<p>É importante que você já organize os documentos a serem enviados e agende a realização do exame admissional. O prazo para preenchimento e envio da Ficha de Cadastro é de 48 horas.</p>'+
-		'<hr>'+
-		'<span>* Se você é de outra localidade, pode enviar o Atestado e Laudo pelos Correios e será reembolsado.</span>'
+		resposta: '<p>Para efetivação do registro, você deverá preencher essa Ficha de Cadastro e anexar cópias digitais dos documentos abaixo relacionados, além de entregar o original do <a href="#Atestado">Atestado Admissional</a> (e laudo PCD, se for o caso) na sede da Hepta*.</p>' +
+			'<li>Documento oficial de identidade (Carteira de identidade ou CNH)</li>' +
+			'<li>CPF</li>' +
+			'<li>Certidão de casamento ou união estável (se for o caso)</li>' +
+			'<li>Cartão PIS ou NIT (se tiver)</li>' +
+			'<li>Certificado de reservista ou Dispensa do Serviço Militar (se for o caso)</li>' +
+			'<li>Título de Eleitor (ou certidão de quitação eleitoral emitida no site do TSE)</li>' +
+			'<li>Comprovante de residência</li>' +
+			'<li>Certidão de nascimento dos filhos (se for o caso)</li>' +
+			'<li>Carteira de vacinação dos filhos menores de 7 anos (se for o caso)</li>' +
+			'<li>Declaração semestral de frequência na escola dos filhos, a partir dos 7 anos (se for o caso)</li>' +
+			'<li>Em caso PCD, laudo com enquadramento (anexar cópia digital na área de documentos desse formulário e entregar original na empresa)</li>' +
+			'<li><a href="#AtestadoMedico">Atestado admissional</a> (anexar cópia digital na área de documentos desse formulário e entregar/enviar original)</li>' +
+			'<p>É importante que você já organize os documentos a serem enviados e agende a realização do exame admissional. O prazo para preenchimento e envio da Ficha de Cadastro é de 48 horas.</p>' +
+			'<hr>' +
+			'<span>* Se você é de outra localidade, pode enviar o Atestado e Laudo pelos Correios e será reembolsado.</span>'
 	},
 	pergunta_titulo_2: {
 		sigla: 'pergunta_titulo_2',
 		titulo: 'Atestado Médico Admissional',
-		resposta: '<p>No Distrito Federal e São Paulo, os colaboradores devem agendar horário de atendimento na empresa Brasilmed e se apresentar na data agendada portando a Guia de Atendimento. Como a Hepta possui convênio com a Brasilmed, não será cobrado de você nenhum valor pelos serviços de exames médicos. </p>'+
-		'<p>Os colaboradores em outras cidades deverão procurar uma clínica especializada e realizar o exame admissional por conta própria. A nota fiscal deste exame deverá ser encaminhada digitalizada para o e-mail  departamentopessoal@hepta.com.br para que seja feito o reembolso imediato.</p>'+
-		'<h4>IMPORTANTE: O ATESTADO MÉDICO ADMISSIONAL é documento obrigatório, não sendo possível proceder com a contratação sem a sua apresentação.</h4>'+
-		'<h3>Agendando o seu exame com a Brasilmed</h3>'+
-		'<p>Entre em contato com a Brasilmed para agendar o exame na unidade de sua preferência.</p>'+
-		'<li>São Paulo: (11) 3042-6141</li>'+
-		'<li>Brasília: (61) 3574-7600</li>'+
-		'<li>Site da Brasilmed: <a href="http://www.brasilmed.com.br" alt="Acessar site">www.brasilmed.com.br</a></li>'+
-		'<li>SAC: <a href="mailto:sac@brasilmed.com.br" alt="e-mail Brasilmed">sac@brasilmed.com.br</a></li>'
+		resposta: '<p>No Distrito Federal e São Paulo, os colaboradores devem agendar horário de atendimento na empresa <a href="https://brasilmed.com.br/" target="_blank" alt="Brasilmed">Brasilmed</a> e se apresentar na data agendada portando a <a href="#" alt="Guia de Atendimento">Guia de Atendimento</a>. Como a Hepta possui convênio com a Brasilmed, não será cobrado de você nenhum valor pelos serviços de exames médicos. </p>' +
+			'<p>Os colaboradores em outras cidades deverão procurar uma clínica especializada e realizar o exame admissional por conta própria. A nota fiscal deste exame deverá ser encaminhada digitalizada para o e-mail  <a href="mailto:departamentopessoal@hepta.com.br" alt="departamentopessoal@hepta.com.br">departamentopessoal@hepta.com.br</a> para que seja feito o reembolso imediato.</p>' +
+			'<h4>IMPORTANTE: O ATESTADO MÉDICO ADMISSIONAL é documento obrigatório, não sendo possível proceder com a contratação sem a sua apresentação.</h4>' +
+			'<h4>Agendando o seu exame com a Brasilmed</h4>' +
+			'<p>Baixe a <a href="#GuiaBrasilmed" alt="Guia de Atendimento da Brasilmed">Guia de Atendimento da Brasilmed</a>, preencha com os seus dados, imprima e assine.</p>'+
+			'<p>Entre em contato com a Brasilmed para agendar o exame na unidade de sua preferência.</p>' +
+			'<li>São Paulo: (11) 3042-6141</li>' +
+			'<li>Brasília: (61) 3574-7600</li>' +
+			'<li>Site da Brasilmed: <a href="http://www.brasilmed.com.br" target="_blank" alt="Acessar site">www.brasilmed.com.br</a></li>' +
+			'<li>SAC: <a href="mailto:sac@brasilmed.com.br" alt="e-mail Brasilmed">sac@brasilmed.com.br</a></li>'
 	},
 	pergunta_titulo_3: {
 		sigla: 'pergunta_titulo_3',
-		titulo: 'Devo cadastrar certificações e exames técnicos que foram descontinuados?',
-		resposta: '<p>Sim. Mesmo que você tenha alguma certificação ou exame que foram descontinuados ou perderam a validade, devem ser cadastradas pois consideramos que elas também são relevantes para a compreensão do processo de aprendizagem do nosso colaborador. </p>'
+		titulo: 'Pagamentos',
+		resposta: '<p>Conforme dispõe o art. 459, §1º da CLT, o pagamento de seus salários será realizado até o 5º dia útil do mês. Quaisquer eventos diferentes, avisaremos a todos com antecedência por meio dos canais de comunicação interna.</p>' +
+			'<h4>Banco do Brasil</h4>' +
+			'<p>Seu salário mensal será pago exclusivamente via Banco do Brasil. Caso não possua conta corrente ou salário neste banco, esta será criada pela Hepta. Para saber mais, acesse <a href="https://www.bb.com.br/pbb/pagina-inicial/voce/produtos-e-servicos/contas/conta-aberta-por-sua-empresa#/" target="_blank" alt="Conta aberta por sua empresa">Conta aberta por sua empresa</a> no site do Banco do Brasil. Se você já tem conta no Banco do Brasil, basta informar os dados. </p>' +
+			'<h4>O que é conta salário?</h4>' +
+			'<p>A conta salário é uma modalidade sem custos, onde é fornecido cartão que permite exclusivamente realizar saque, nenhuma outra movimentação. </p>' +
+			'<p>Se você já tem conta corrente em outra instituição bancária, deverá informar ao Banco do Brasil seu desejo de transferir automaticamente os créditos que caírem na conta salário para a conta indicada.</p>' +
+			'<p>Para saber mais e tirar dúvidas, acesse as <a href="https://www.bcb.gov.br/acessoinformacao/perguntasfrequentes-respostas/faq_contasalario_portabilidade" target="_blank" alt="Perguntas e Respostas sobre Conta Salário e Portabilidade Salarial">Perguntas e Respostas sobre Conta Salário e Portabilidade Salarial</a> no site do Banco Central do Brasil. </p>'
+
 	},
 	pergunta_titulo_4: {
 		sigla: 'pergunta_titulo_4',
-		titulo: 'Minha certificação ou exame não está na lista, o que fazer? Não encontrei na lista do módulo o que procurava?',
-		resposta: '<p>Não se preocupe se o curso, certificação ou exame que você fez não estiver na lista. Como falamos, o sistema está em constante evolução e basta clicar aqui para indicar seu certificado que a Academia Hepta irá cadastrar e te informar quando estiver disponível. </p>'
+		titulo: 'Benefícios',
+		resposta: '<p>Todos os benefícios são pagos de acordo com a legislação e com Acordo/CCT da cidade na qual você está alocado.</p>' +
+			'<h4>Vale transporte</h4>' +
+			'<p>Como previsto na legislação (<a href="https://www.planalto.gov.br/ccivil_03/LEIS/L7418.htm" target="_blank" alt="Lei nº 7.418/85">Lei nº 7.418/85</a> e <a href="https://www.planalto.gov.br/ccivil_03/decreto/d95247.htm" target="_blank" alt="Decreto nº 95.247/87">Decreto nº 95.247/87</a>) será descontado 6% de seu salário bruto, ou até o limite do valor disponibilizado, de quem fizer a opção pelo Vale Transporte. Por exemplo, se 6% do seu salário equivale a R$ 180,00 e o valor de seu vale transporte for apenas R$ 120,00, o desconto será de apenas R$ 120. Porém, se o valor de seu vale transporte for R$ 190,00, será feito o desconto de R$ 180 (6% do salário).</p>' +
+			'<h4>Vale Restaurante / Vale Alimentação</h4>' +
+			'<p>O benefício e seus respectivos descontos seguirão o disposto no Acordo e/ou Convenção Coletiva de Trabalho de sua localidade (cidade e/ou estado).</p>' +
+			'<p>A Hepta tem contrato com a empresa Ticket, que solicita um prazo de – em média – 10 dias úteis após a primeira solicitação para a entrega do cartão na sede da empresa.</p>' +
+			'<p>A primeira solicitação só pode ocorrer após o seu registro legal na empresa, então é preciso considerar esse prazo de 10 dias úteis e acrescentar o prazo para envio do mesmo por correio ou transportadora, no caso de outras localidades. </p>' +
+			'<p>Mensalmente este cartão será carregado com créditos até o dia 30. A opção pelo "Vale Restaurante" lhe permitirá utilizar o cartão em restaurantes ou lanchonetes, onde servem alimentos prontos. O "Vale Alimentação" é utilizado principalmente para compras em redes de supermercados.</p>' +
+			'<h4>Plano de saúde</h4>' +
+			'<p>A Hepta tem contrato com a Amil para fornecer Plano de Saúde Coletivo Empresarial para seus colaboradores. O benefício e seus respectivos descontos seguirão o disposto no Acordo e/ou Convenção Coletiva de Trabalho de sua localidade (cidade e/ou estado).</p>' +
+			'<p>Até 30 dias após a admissão a inclusão do plano de saúde é feita sem carência, após essa data a inclusão já é feita com carência. O plano de saúde padrão é o AMIL S450 QC (Quarto Coletivo), sendo que os percentuais de participação patronal (Hepta) e funcional (funcionário) variam de acordo com o acordo/convenção coletiva de trabalho de cada localidade. </p>' +
+			'<p>Também é oferecida ao colaborador a opção de adesão a planos superiores, sendo que nesse caso irá pagar integralmente a diferença de valor entre o plano escolhido e o plano padrão AMIL S450 QC.</p>' +
+			'<p><img src="assets/img/tabela-plano-saude.png"></p>' +
+			'<p>Importante lembrar que:</p>' +
+			'<li><strong>Não mais existe carteira física para Plano de Saúde e Plano Dental</strong></li>' +
+			'<li>Por definição da Agência Nacional de Saúde (ANS), para planos coletivos empresariais são considerados como dependentes apenas o cônjuge e filhos.</li>' +
+			'<li>A Hepta paga o Plano de Saúde de forma antecipada, no início de cada mês, e desconta de seus empregados de forma retroativa, ou seja, somente quando do pagamento do salário no mês seguinte. Sendo assim, em caso de afastamento, será feito o ajuste de valores necessário.</li>' +
+			'<li><strong>O empregado afastado por alguma enfermidade que passar a receber Auxílio Doença do INSS continuará usufruindo do Plano de Saúde, juntamente com seus dependentes legais, sendo responsável por arcar com o pagamento de sua parte cabível (O Pagamento do plano de saúde será feito em depósito na conta da Hepta).</strong></li>' +
+			'<h4>Plano Dental</h4>' +
+			'<p>Além do plano de saúde, o colaborador Hepta também pode aderir ao plano odontológico <a href="https://www.amildental.com.br/" target="_blank" alt="Amil Dental">AMIL Dental</a>. O custo mensal deste plano é descontado integralmente no salário de acordo com a tabela abaixo:</p>' +
+			'<p><img src="assets/img/plano-odonto.png" alt="Plano Odontológico"></p>'
 	},
 	pergunta_titulo_5: {
 		sigla: 'pergunta_titulo_5',
-		titulo: 'Não tenho nenhuma certificação ou exame para cadastrar',
-		resposta: '<p>Isso significa que o seu cadastro está atualizado, portanto, clique no botão <strong>“Confirmar que não tenho certificações no momento”</strong>. Essa informação também é muito importante para traçarmos as melhores práticas e trilhas de aprendizagem para o crescimento profissional do nosso <strong>#capitalhumano</strong>.</p>'
+		titulo: 'Imposto de Renda Retido na Fonte (IRRF)',
+		resposta: '<p>A inclusão de dependentes no IRRF permite a dedução de diversas despesas na declaração de ajuste anual e tem impacto direto no valor descontado mensalmente do salário, já que para cada dependente é feita uma dedução padronizada sobre o valor a ser utilizado para o cálculo do imposto. </p>' +
+			'<p>Importante destacar que, diferentemente do Salário-Família, a dedução só pode ser aplicada a um beneficiário da família.</p>'
 	},
 	pergunta_titulo_6: {
 		sigla: 'pergunta_titulo_6',
-		titulo: 'Quando devo fazer o cadastro de certificações e exames?',
-		resposta: '<p>Sempre que for aprovado em um exame ou tirar uma certificação deve realizar o cadastro, dessa forma, você mantém seus dados atualizados.</p>'
+		titulo: 'Salário-família',
+		resposta: '<p>O salário-família é um valor pago ao empregado de acordo com o número de filhos até 14 anos. Para ter direito é preciso enquadrar-se no limite máximo de renda estipulado pelo governo federal (até R$ 1.503,25, desde janeiro de 2021, de acordo com a <a href="https://www.in.gov.br/en/web/dou/-/portaria-seprt/me-n-477-de-12-de-janeiro-de-2021-298858991" target="_blnak" alt="Portaria">Portaria SEPRT/ME nº 477, de 12 de janeiro de 2021)</a> e comprovar vacinação e frequência escolar dos dependentes. Um dado importante é que os dois pais têm direito ao benefício, caso ambos satisfaçam os requisitos para a concessão. </p>' +
+			'<p>Para saber mais acesse: <a href="https://www.gov.br/inss/pt-br/saiba-mais/salario-familia" target="_blank" alt="Salário família">INSS – Salário Família</a></p>'
 	},
 	pergunta_titulo_7: {
 		sigla: 'pergunta_titulo_7',
-		titulo: 'Conhecendo o formulário',
-		resposta: '<p>Em certificação/Exame, ao começar a digitar pelo termo da certificação ou exame irá aparecer uma lista para que você encontre mais rápido o que procura.</p>'+
-		'<p><img src="assets/img/img-1.png" alt="formulário do sistema"></p>'+
-		'<p>Se você não encontrar sua prova ou certificação na lista, basta clicar no link disponível na parte inferior do cadastro e preencher o formulário com os dados solicitados. Em <strong>documento, anexe o arquivo da certificação ou exame cadastrado</strong>. O sistema aceita arquivo em <strong>PDF com limite de tamanho de até 1GB</strong>.</p>'+
-		'<img src="assets/img/img-2.png" alt="imagem do anexo até  1gb">'+
-		'<p>Por fim, informe a data de emissão e data de validade do exame ou certificação. Antes de clicar em ENVIAR, verifique se todos os dados estão corretos. Se mudar de ideia e quiser cadastrar em outro momento é só cancelar ou sair da página.</p>'
-	},
-	pergunta_titulo_8: {
-		sigla: 'pergunta_titulo_8',
-		titulo: 'vamos que vamos',
-		resposta: '<p>Em certificação/Exame, ao começar a digitar pelo termo da certificação ou exame irá aparecer uma lista para que você encontre mais rápido o que procura.</p>'+
-		'<p><img src="assets/img/img-1.png" alt="formulário do sistema"></p>'+
-		'<p>Se você não encontrar sua prova ou certificação na lista, basta clicar no link disponível na parte inferior do cadastro e preencher o formulário com os dados solicitados. Em <strong>documento, anexe o arquivo da certificação ou exame cadastrado</strong>. O sistema aceita arquivo em <strong>PDF com limite de tamanho de até 1GB</strong>.</p>'+
-		'<img src="assets/img/img-2.png" alt="imagem do anexo até  1gb">'+
-		'<p>Por fim, informe a data de emissão e data de validade do exame ou certificação. Antes de clicar em ENVIAR, verifique se todos os dados estão corretos. Se mudar de ideia e quiser cadastrar em outro momento é só cancelar ou sair da página.</p>'
+		titulo: 'Privacidade e Proteção de Dados',
+		resposta: '<p>Todos os dados solicitados nessa ficha de cadastro são necessários para o registro funcional. Os ícones inseridos ao lado do nome de cada campo indicam o motivo da solicitação e como o dado será utilizado.</p>' +
+			'<p>eSocial é o Sistema de Escrituração Digital das Obrigações Fiscais Previdenciárias e Trabalhistas, instituído pelo governo federal no Decreto nº 8.373, de 11 de dezembro de 2014. Em vigor desde 2018, o sistema unifica o registro trabalhistas e contábeis. Os dados marcados com o símbolo do eSocial no formulário de cadastro são exigências legais e serão compartilhados com órgãos públicos por meio do referido sistema.</p>' +
+			'<p>Empresa responsável pelo plano de saúde e odontológico, sendo necessário o compartilhamento dos seus dados pessoais e dos seus dependentes, no caso de interesse de uso do benefício.</p>' +
+			'<p>Como empregadora, a Hepta precisa manter registros de seus colaboradores. Além das informações legais exigidas pelo governo, também são necessários dados pessoais como, por exemplo, contatos alternativos, formação e experiência, fotos para identificação e dados para produção de uniformes, entre outros. </p>'+
+			'<p>Os dados pessoais de nossos colaboradores são armazenados e tratados de forma segura. Sempre que necessário é feita gestão do consentimento para que o titular dos dados tenha conhecimento e autorize o uso e/ou compartilhamento.</p>'+
+			'<p>Ao enviar esse formulário você confirma que está ciente sobre o uso e tratamento dos dados aqui compartilhados.</p>'
 	}
 
 
@@ -112,7 +134,3 @@ function montar_unidades() {
 }
 
 montar_unidades();
-
-
-
-

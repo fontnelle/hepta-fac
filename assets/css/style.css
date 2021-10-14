@@ -221,6 +221,10 @@ body {
   color: #4F5E66;
 }
 
+.perguntas a {
+  color: #D8B630;
+}
+
 .perguntas .card {
   background-color: none;
   border: none;
