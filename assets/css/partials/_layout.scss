@@ -86,6 +86,16 @@
   }
 }
 
+.ancoras{
+  text-align: center;
+  a{
+  @include titulo;
+  font-size: 20px;
+  line-height: 24px;
+  color: $azul;
+  }
+}
+
 .topo-2 {
   h1 {
     @include titulo-2;
@@ -102,6 +112,8 @@
     }
   }
 }
+
+
 
 .busca {
   h2 {
