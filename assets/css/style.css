@@ -112,6 +112,18 @@ body {
   font-weight: bold;
 }
 
+@media screen and (max-width: 992px) {
+  .topo h1 {
+    font-size: 36px;
+    line-height: 46px;
+    background-color: hotpink;
+  }
+  .topo p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
 .topo-2 h1 {
   margin: 20px 0;
   font-family: 'Mulish', sans-serif;
@@ -202,6 +214,18 @@ body {
   color: #ccc;
 }
 
+@media screen and (max-width: 992px) {
+  .busca h1 {
+    font-size: 36px;
+    line-height: 46px;
+    background-color: hotpink;
+  }
+  .busca p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
 .perguntas h3 {
   margin: 20px 0;
   font-family: 'Mulish', sans-serif;
@@ -211,6 +235,18 @@ body {
   color: #D8B630;
   font-size: 22px;
   line-height: 28px;
+}
+
+.perguntas h4 {
+  margin: 20px 0;
+  font-family: 'Mulish', sans-serif;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 66px;
+  color: #D8B630;
+  font-size: 22px;
+  line-height: 24px;
+  color: #4f5e66;
 }
 
 .perguntas p {
@@ -223,6 +259,39 @@ body {
 
 .perguntas a {
   color: #D8B630;
+  font-weight: bold;
+}
+
+.perguntas li {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 27px;
+  color: #4F5E66;
+  font-size: 16px;
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.perguntas li::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: #FFC400;
+  margin: 2px 6px;
+  border-radius: 100px;
+  margin-top: -3px;
+}
+
+.perguntas span {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 27px;
+  color: #4F5E66;
+  font-size: 14px;
+  font-style: italic;
 }
 
 .perguntas .card {
@@ -245,6 +314,17 @@ body {
 
 .perguntas .card img {
   border-radius: 10px;
+}
+
+@media screen and (max-width: 992px) {
+  .perguntas h3 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .perguntas p {
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
 
 .perguntas-2 h3 {
@@ -359,6 +439,14 @@ body {
 @media screen and (max-width: 992px) {
   .busca .geral-pesquisa_input .form-control {
     width: 98%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .navbar .navbar-nav .nav-item {
+    border-bottom: 1px solid #FFC400;
+    border-left: none !important;
+    padding: 0 20px;
   }
 }
 /*# sourceMappingURL=style.css.map */
