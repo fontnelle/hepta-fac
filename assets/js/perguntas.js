@@ -1,4 +1,7 @@
-﻿// Perguntas frequentes - Biometria
+﻿
+
+
+// Perguntas frequentes - Biometria
 var x;
 var i = 1;
 var perguntas = {
@@ -9,6 +12,7 @@ var perguntas = {
 	pergunta_titulo_1: {
 		sigla: 'pergunta_titulo_1',
 		titulo: 'Documentação Necessária para Efetivação',
+		class: 'teste',
 		resposta: '<p>Para efetivação do registro, você deverá preencher essa Ficha de Cadastro e anexar cópias digitais dos documentos abaixo relacionados, além de entregar o original do <a href="#Atestado">Atestado Admissional</a> (e laudo PCD, se for o caso) na sede da Hepta*.</p>' +
 			'<li>Documento oficial de identidade (Carteira de identidade ou CNH)</li>' +
 			'<li>CPF</li>' +
@@ -21,7 +25,7 @@ var perguntas = {
 			'<li>Carteira de vacinação dos filhos menores de 7 anos (se for o caso)</li>' +
 			'<li>Declaração semestral de frequência na escola dos filhos, a partir dos 7 anos (se for o caso)</li>' +
 			'<li>Em caso PCD, laudo com enquadramento (anexar cópia digital na área de documentos desse formulário e entregar original na empresa)</li>' +
-			'<li><a href="#AtestadoMedico">Atestado admissional</a> (anexar cópia digital na área de documentos desse formulário e entregar/enviar original)</li>' +
+			'<li><a href="">Atestado admissional</a> (anexar cópia digital na área de documentos desse formulário e entregar/enviar original)</li>' +
 			'<p>É importante que você já organize os documentos a serem enviados e agende a realização do exame admissional. O prazo para preenchimento e envio da Ficha de Cadastro é de 48 horas.</p>' +
 			'<hr>' +
 			'<span>* Se você é de outra localidade, pode enviar o Atestado e Laudo pelos Correios e será reembolsado.</span>'
@@ -134,3 +138,8 @@ function montar_unidades() {
 }
 
 montar_unidades();
+
+
+
+const titulo = document.getElementsByClassName('collapse');
+console.log(titulo)
