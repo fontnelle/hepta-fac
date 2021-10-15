@@ -1,7 +1,4 @@
-﻿
-
-
-// Perguntas frequentes - Biometria
+﻿// Perguntas frequentes - Biometria
 var x;
 var i = 1;
 var perguntas = {
@@ -80,28 +77,6 @@ var perguntas = {
 			'<h4>Plano Dental</h4>' +
 			'<p>Além do plano de saúde, o colaborador Hepta também pode aderir ao plano odontológico <a href="https://www.amildental.com.br/" target="_blank" alt="Amil Dental">AMIL Dental</a>. O custo mensal deste plano é descontado integralmente no salário de acordo com a tabela abaixo:</p>' +
 			'<p><img class="img-fluid" src="assets/img/plano-odonto.png" alt="Plano Odontológico"></p>'
-	},
-	pergunta_titulo_5: {
-		sigla: 'pergunta_titulo_5',
-		titulo: 'Imposto de Renda Retido na Fonte (IRRF)',
-		resposta: '<p>A inclusão de dependentes no IRRF permite a dedução de diversas despesas na declaração de ajuste anual e tem impacto direto no valor descontado mensalmente do salário, já que para cada dependente é feita uma dedução padronizada sobre o valor a ser utilizado para o cálculo do imposto. </p>' +
-			'<p>Importante destacar que, diferentemente do Salário-Família, a dedução só pode ser aplicada a um beneficiário da família.</p>'
-	},
-	pergunta_titulo_6: {
-		sigla: 'pergunta_titulo_6',
-		titulo: 'Salário-família',
-		resposta: '<p>O salário-família é um valor pago ao empregado de acordo com o número de filhos até 14 anos. Para ter direito é preciso enquadrar-se no limite máximo de renda estipulado pelo governo federal (até R$ 1.503,25, desde janeiro de 2021, de acordo com a <a href="https://www.in.gov.br/en/web/dou/-/portaria-seprt/me-n-477-de-12-de-janeiro-de-2021-298858991" target="_blnak" alt="Portaria">Portaria SEPRT/ME nº 477, de 12 de janeiro de 2021)</a> e comprovar vacinação e frequência escolar dos dependentes. Um dado importante é que os dois pais têm direito ao benefício, caso ambos satisfaçam os requisitos para a concessão. </p>' +
-			'<p>Para saber mais acesse: <a href="https://www.gov.br/inss/pt-br/saiba-mais/salario-familia" target="_blank" alt="Salário família">INSS – Salário Família</a></p>'
-	},
-	pergunta_titulo_7: {
-		sigla: 'pergunta_titulo_7',
-		titulo: 'Privacidade e Proteção de Dados',
-		resposta: '<p>Todos os dados solicitados nessa ficha de cadastro são necessários para o registro funcional. Os ícones inseridos ao lado do nome de cada campo indicam o motivo da solicitação e como o dado será utilizado.</p>' +
-			'<p>eSocial é o Sistema de Escrituração Digital das Obrigações Fiscais Previdenciárias e Trabalhistas, instituído pelo governo federal no Decreto nº 8.373, de 11 de dezembro de 2014. Em vigor desde 2018, o sistema unifica o registro trabalhistas e contábeis. Os dados marcados com o símbolo do eSocial no formulário de cadastro são exigências legais e serão compartilhados com órgãos públicos por meio do referido sistema.</p>' +
-			'<p>Empresa responsável pelo plano de saúde e odontológico, sendo necessário o compartilhamento dos seus dados pessoais e dos seus dependentes, no caso de interesse de uso do benefício.</p>' +
-			'<p>Como empregadora, a Hepta precisa manter registros de seus colaboradores. Além das informações legais exigidas pelo governo, também são necessários dados pessoais como, por exemplo, contatos alternativos, formação e experiência, fotos para identificação e dados para produção de uniformes, entre outros. </p>'+
-			'<p>Os dados pessoais de nossos colaboradores são armazenados e tratados de forma segura. Sempre que necessário é feita gestão do consentimento para que o titular dos dados tenha conhecimento e autorize o uso e/ou compartilhamento.</p>'+
-			'<p>Ao enviar esse formulário você confirma que está ciente sobre o uso e tratamento dos dados aqui compartilhados.</p>'
 	}
 
 
@@ -139,7 +114,3 @@ function montar_unidades() {
 
 montar_unidades();
 
-
-
-const titulo = document.getElementsByClassName('collapse');
-console.log(titulo)

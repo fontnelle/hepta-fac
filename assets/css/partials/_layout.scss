@@ -2,6 +2,8 @@
   margin: 30px 0;
 }
 
+
+
 .menu {
   background-color: $laranja-escuro;
   padding: 10px;
@@ -157,6 +159,7 @@
 }
 
 .perguntas {
+
   h3 {
     @include titulo;
     font-size: 22px;
@@ -202,6 +205,7 @@
     border: none;
     padding: 0;
     margin-bottom: 10px;
+
     .card-header {
       border: none;
       background: none;
@@ -214,6 +218,7 @@
     img {
       border-radius: 10px;
     }
+    
   }
 }
 
