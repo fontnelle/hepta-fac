@@ -1,3 +1,7 @@
+.avermelhar{
+  color: #e62929;
+}
+
 .sub-menu {
   margin: 30px 0;
 }
@@ -59,6 +63,11 @@
   h1 {
     @include titulo;
   }
+  h2{
+    @include titulo;
+    color: #4f5e66;
+    font-size: 36px;
+  }
   p {
     @include paragrafo;
     &::selection {
@@ -69,6 +78,13 @@
       color: #4f5e66;
       font-weight: bold;
     }
+  }
+  .sitacao{
+    margin: 0 40px
+  }
+ span{
+   @include paragrafo;
+  font-style: italic;
   }
 }
 
@@ -133,22 +149,6 @@
     0px 0.412187px 5.08364px rgba(0, 121, 133, 0.0217013);
 }
 
-.topo-2 {
-  h1 {
-    @include titulo-2;
-  }
-  p {
-    @include paragrafo;
-    &::selection {
-      background-color: $azul;
-      color: #fff;
-    }
-    a {
-      color: #4f5e66;
-      font-weight: bold;
-    }
-  }
-}
 
 .busca {
   h2 {

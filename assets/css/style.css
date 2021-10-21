@@ -13,6 +13,10 @@ body {
   background-color: #F3F9F9;
 }
 
+.avermelhar {
+  color: #e62929;
+}
+
 .sub-menu {
   margin: 30px 0;
 }
@@ -90,6 +94,17 @@ body {
   color: #D8B630;
 }
 
+.topo h2 {
+  margin: 20px 0;
+  font-family: 'Mulish', sans-serif;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 66px;
+  color: #D8B630;
+  color: #4f5e66;
+  font-size: 36px;
+}
+
 .topo p {
   font-family: 'Open Sans', sans-serif;
   font-weight: normal;
@@ -111,6 +126,19 @@ body {
 .topo p a {
   color: #4f5e66;
   font-weight: bold;
+}
+
+.topo .sitacao {
+  margin: 0 40px;
+}
+
+.topo span {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 27px;
+  color: #4F5E66;
+  font-style: italic;
 }
 
 @media screen and (max-width: 992px) {
@@ -184,38 +212,6 @@ body {
   background: hotpink;
   -webkit-box-shadow: 0px 12px 148px rgba(0, 121, 133, 0.07), 0px 4.3802px 54.0224px rgba(0, 121, 133, 0.0482987), 0px 2.1265px 26.2269px rgba(0, 121, 133, 0.0389404), 0px 1.04245px 12.8569px rgba(0, 121, 133, 0.0310596), 0px 0.41219px 5.08364px rgba(0, 121, 133, 0.0217013);
           box-shadow: 0px 12px 148px rgba(0, 121, 133, 0.07), 0px 4.3802px 54.0224px rgba(0, 121, 133, 0.0482987), 0px 2.1265px 26.2269px rgba(0, 121, 133, 0.0389404), 0px 1.04245px 12.8569px rgba(0, 121, 133, 0.0310596), 0px 0.41219px 5.08364px rgba(0, 121, 133, 0.0217013);
-}
-
-.topo-2 h1 {
-  margin: 20px 0;
-  font-family: 'Mulish', sans-serif;
-  font-weight: bold;
-  font-size: 56px;
-  line-height: 66px;
-  color: #278B97;
-}
-
-.topo-2 p {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: normal;
-  font-size: 19px;
-  line-height: 27px;
-  color: #4F5E66;
-}
-
-.topo-2 p::-moz-selection {
-  background-color: #278B97;
-  color: #fff;
-}
-
-.topo-2 p::selection {
-  background-color: #278B97;
-  color: #fff;
-}
-
-.topo-2 p a {
-  color: #4f5e66;
-  font-weight: bold;
 }
 
 .busca h2 {
